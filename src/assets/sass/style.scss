@@ -3,13 +3,17 @@
 @import "config/colors.scss";
 
 @import "utilites/spacing.scss";
+@import "utilites/mixin-card.scss";
 
 @import "base/fonts.scss";
 @import "base/global.scss";
 @import "base/typography.scss";
 @import "base/links.scss";
 
-$background-color: silver;
+@import "components/demo.scss";
+@import "components/components";
+
+$background-color: rgb(224, 223, 223);
 body{
     background-color: $background-color;
 }
